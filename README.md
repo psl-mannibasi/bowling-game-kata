@@ -20,13 +20,11 @@ Write a program to score a game of Ten-Pin Bowling; you should create a class or
 - `int score()`
 
 ### Suggested Test Cases
-Key: “X” indicates a strike, “/” indicates a spare and “-” indicates a miss.
+Key: `X` indicates a strike, `/` indicates a spare, and `-` indicates a miss.
 
-`X X X X X X X X X X X X` 
-(12 rolls: 12 strikes) = 10 frames * 30 points = 300
-
-`9- 9- 9- 9- 9- 9- 9- 9- 9- 9-` 
-(20 rolls: 10 pairs of 9 and miss) = 10 frames * 9 points = 90
-
-`5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/5`
-(21 rolls: 10 pairs of 5 and spare, with a final 5) = 10 frames * 15 points = 150
+| #1  | #2  | #3  | #4  | #5  | #6  | #7  | #8  | #9  | #10 | Rolls | Summary                                 | Calculation           | Score |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|-----------------------------------------|-----------------------|-------|
+| --  | --  | --  | --  | --  | --  | --  | --  | --  | --  | 20    | 20 misses                               | 10 frames * 0 points  | 0     |
+| 9-  | 9-  | 9-  | 9-  | 9-  | 9-  | 9-  | 9-  | 9-  | 9-  | 20    | 10 pairs of 9 & a miss                  | 10 frames * 9 points  | 90    |
+| 5/  | 5/  | 5/  | 5/  | 5/  | 5/  | 5/  | 5/  | 5/  | 5/5 | 21    | 10 pairs of 5 & a spare, with a final 5 | 10 frames * 15 points | 150   |
+| X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | 12    | 12 strikes                              | 10 frames * 30 points | 300   |
