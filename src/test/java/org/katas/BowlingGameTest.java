@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BowlingGameTest {
     @Test
     public void gutterGameShouldScoreZero() {
-        assertEquals(0, Game.score());
+        Game g = new Game();
+        assertEquals(0, g.score());
     }
 }
