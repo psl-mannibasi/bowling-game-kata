@@ -31,4 +31,31 @@ public class BowlingGameTest {
         g.roll(0);
         assertEquals(0, g.score());
     }
+
+    @Test
+    public void allOnesShouldScoreTwenty() {
+        Game g = new Game();
+        //20 1 pin rolls
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        g.roll(1);
+        assertEquals(20, g.score());
+    }
 }
