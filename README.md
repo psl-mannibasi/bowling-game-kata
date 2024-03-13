@@ -15,9 +15,12 @@ The following '10 pin calculator' can be used to see the scoring in action too:
 http://www.bowlinggenius.com/
 
 ### Requirements
-Write a program to score a game of Ten-Pin Bowling; you should create a class or module that exposes two methods or functions:
+Write a program to score a game of Ten-Pin Bowling; that is, for an input sequence of bowling 'rolls', return the total score.
+
+You should create a class or module that exposes two methods or functions:
 - `void roll(int pins)`
 - `int score()`
+
 
 ### Suggested Test Cases
 Key: `X` indicates a strike, `/` indicates a spare, and `-` indicates a miss.
